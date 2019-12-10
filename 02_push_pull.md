@@ -8,7 +8,13 @@
   1. git bash에서 cd TIL/ --> 멀캠가정
   2. 새로운 git bash 창  --> 집 가정
 
-- git clone 원격저장소의 주소
+- 사용법
+
+  ```
+  $ git clone 원격저장소의 주소
+  ```
+
+  
 
   - github TIL repository에서 `clone or download` 클릭해서 클립보드로 주소 복사
 
