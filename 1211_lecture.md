@@ -177,5 +177,19 @@ $ rm -rf .git   # 이미 연동된 git에 clone할 경우 clone한 폴더 내 		
   $ git remote add origin [repository 주소]
   ```
 
-  
 
+
+
+
+-------------
+
+## 템플릿 적용
+
+1. 구글에서 start bootstrap 사이트 들어가서 템플릿 다운
+2. 사용자 폴더에 들어가서 압축해제
+3. github에서 new repository 생성
+4. 압축해제한 폴더 안에 들어가서 우클릭 git bash
+5.  add commit 이후 remote add
+6. $ git remote -v 로 확인
+7. 이후 push
+8. settings 에서 GitHub Pages 탭에 source를 master branch 변경
