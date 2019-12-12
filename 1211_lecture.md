@@ -193,3 +193,65 @@ $ rm -rf .git   # 이미 연동된 git에 clone할 경우 clone한 폴더 내 		
 6. $ git remote -v 로 확인
 7. 이후 push
 8. settings 에서 GitHub Pages 탭에 source를 master branch 변경
+
+---
+
+## Requests & BeautifulSoup 이용한 웹 스크래핑
+
+### (1) 관련 패키지 및 모듈 설치
+
+```
+$ pip install requests
+$ pip install bs4
+```
+
+```python
+import requests
+from bs4 import BeautifulSoup
+```
+
+### (2) requests & BeautifulSoup  사용
+
+- requests 클래스 내 `get`과 `text`를 이용하여 웹 스크래핑을 진행
+
+```python
+response = requests.get('URL 주소').text
+soup = BeautifulSoup(response, 'html.parser')
+tags = soup.select('css selector')
+for tag in tags:
+	print(tag.text)
+```
+
+- cf) select_one 사례
+
+  ```python
+  select = soup.select_one('css selector').text
+  print(select)
+  ```
+
+### (3) 파이썬을 이용한 파일 조작
+
+- 기본 파일 조작 방법
+
+  ```python
+  f = open('파일명.확장자', 'w or r')
+  
+  f. close()
+  ```
+
+- with 을 활용한 파일 조작 방법
+
+  ```python
+  with open('파일명.확장자', 'w or r') as f:
+  	nums = f.readlines()
+  	n = list()
+  	for num in nums:
+  		num = num.strip()
+  		num = int(num)
+  		n.append(num)
+  	so = n.sort(reverse = True)
+  	print(n)
+  ```
+
+  
+
