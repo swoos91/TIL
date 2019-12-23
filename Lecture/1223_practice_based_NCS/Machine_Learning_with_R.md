@@ -106,7 +106,7 @@ confusionMatrix(model, iris_test$Species)
 
 ---
 
-![image-20191223110024290](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20191223110024290.png)
+![](C:\Users\student\TIL\Lecture\1223_practice_based_NCS\image-20191223110024290.png)
 
 - Confusion Matrix에서의 Accuracy 측정
 
@@ -116,7 +116,7 @@ confusionMatrix(model, iris_test$Species)
 
 - 머신러닝 모델 평가 지표
 
-  ![image-20191223110539801](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20191223110539801.png)
+  ![](C:\Users\student\TIL\Lecture\1223_practice_based_NCS\image-20191223110539801.png)
 
   - 민감도: 실측치 기준으로 긍정을 올바르게 예측한 비율
   - 정밀도:  예측치 기준으로 실제 긍정일 비율
