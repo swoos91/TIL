@@ -96,7 +96,7 @@
 
 - Concept
 
-  - ![Gradient descent algorithm](C:\Users\student\TIL\Coursera_Andrew\Gradient_descent_algorithm.png)
+  - ![Gradient descent algorithm](C:\Users\student\TIL\Coursera_Andrew\reference\Gradient_descent_algorithm.png)
 
     Reference: Coursera Lecture of Machine Learning by Andrew ng
 
