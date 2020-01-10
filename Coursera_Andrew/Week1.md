@@ -53,3 +53,57 @@
       4. Astronomical data analysis
 
     - Cocktail party problem
+
+
+
+---
+
+## Friday Jan. 10th 2020
+
+---
+
+
+
+## Linear Regression
+
+> 지도학습의 한 종류
+
+
+
+### 1. 용어 정리
+
+- **m**: number of training examples
+
+- **X**: feature
+- **Y**: target variable
+- **h(hypothesis)**: h maps from <u>X</u> to <u>Y</u>
+
+
+
+### 2. Cost Function(J( = Jacobi); Squared Error function)
+
+> 주어진 데이터셋에 가장 가까운 모델(Linear regression)을 생성할 때 활용하는 아이디어
+>
+> - Choose <u>θ0, θ1</u> so that hθ(x) is close to y for our training examples(x,y)
+
+
+
+### 3. Gradient descent(; 경사하강법)
+
+> - Start with some θ0, θ1
+> - Keep changing θ0, θ1 to reduce J(θ0, θ1) until we hopefully end up at a minimum
+> - 작은 걸음걸이로 언덕을 최대한 빠르게 내려가고자 하는 아이디어와 유사하다.
+
+- Concept
+
+  - ![Gradient descent algorithm](C:\Users\student\TIL\Coursera_Andrew\Gradient_descent_algorithm.png)
+
+    Reference: Coursera Lecture of Machine Learning by Andrew ng
+
+  - Terms
+    - **<u>α</u>** means **<u>learning rate</u>**
+      - if α is **<u>too small</u>**, gradient descent can **<u>be slow</u>**(taking much time to find the minimum of J). However, if α is **<u>too large</u>**, gradient descent **<u>can overshoot the minimum</u>**. it may fail to converge, or even diverge.
+    - **<u>:=</u>** means **<u>assignment</u>**
+    - **<u>The derivative</u>** means **<u>the tangent value</u>** of the point ( ; the slope of the point )
+  - The point is that it should **<u>simultaneously update</u>** the parameters 
+
