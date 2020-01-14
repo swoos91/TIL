@@ -55,3 +55,66 @@ source: https://www.coursera.org/learn/machine-learning/supplement/aEN5G/gradien
 
 
 
+---
+
+
+
+### Tue Jan. 14th 2020
+
+##### Week 2_Linear Regression with multiple variables
+
+---
+
+
+
+### Normal Equation ( 정규 방정식 )
+
+> - **<u>특정 회귀 모형</u>**에서 파라미터 θ의 최적값을 구하는데 효과적인 방법
+>
+> - Gradient Descent 와 달리(여러 번 반복하여 최소값으로 수렴하는 θ), 
+>
+>   Normal Equation은 **<u>분석적(Analytically)으로 접근</u>**하여 θ 값을 한번에 구하는 방법
+
+
+
+#### 1. Concept
+
+- ![https://www.coursera.org/learn/machine-learning/lecture/2DKxQ/normal-equation](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/derivative_of_Jacobi.png?raw=true)
+
+  If the number of features is quite low ( **<u>under 10^6</u>** ), then it's much better to use **<u>Normal Equation</u>**. As you can see the formula above, you need to **find every θ** by using this formula. 
+
+- ![https://www.coursera.org/learn/machine-learning/lecture/2DKxQ/normal-equation](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/Normal_Equation_formula.png?raw=true)
+
+
+
+
+
+#### 2. Comparison Normal Equation with Gradient Descent
+
+![https://www.coursera.org/learn/machine-learning/lecture/2DKxQ/normal-equation](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/pros&cons_of_Gradient_Descent&Normal_Equation.png?raw=true)
+
+---
+
+**Reference**: https://www.coursera.org/learn/machine-learning/lecture/2DKxQ/normal-equation
+
+---
+
+
+
+#### Normal Equation Non-invertibility
+
+> The problem is 'What if the matrix X has **no inverse matrix**?'
+
+
+
+- Case I
+
+  **<u>Redundant features</u>** like linearly dependent.
+
+  Then, strongly recommend to **drop the features**.
+
+- Case II
+
+  Too many features ( e.g. m <= n )
+
+  Then, **delete some features** or **use regularization**.
