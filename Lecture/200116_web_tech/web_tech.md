@@ -47,3 +47,34 @@
 ```
   
 - form 태그 내 input은 form 정보를 자기 자신에게 보냄
+
+
+
+cf) VS code
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+    h1{
+        color:firebrick;
+        border-style: solid;
+        border-width: 1px;
+        border-color: greenyellow;
+    }
+    textarea#t1{
+        background-color: khaki;
+    }
+    </style>
+
+</head>
+<body>
+    <h1>언어판별기</h1>
+    <textarea name="텍스트" id="t1" cols="30" rows="10"></textarea>
+    <input type="submit" value='판정' onclick=''>
+</body>
+</html>
+```
+
