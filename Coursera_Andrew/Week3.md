@@ -31,6 +31,12 @@
 
 Reference: https://www.coursera.org/learn/machine-learning/lecture/WuL1H/decision-boundary
 
+---
+
+
+
+
+
 ### 2. Cost function
 
 > To fit the optimized θ of logistic regression, we're going to study the cost function.
