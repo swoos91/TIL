@@ -47,7 +47,12 @@ Kmeans -> 비지도/비계층
   - gamma
 
     - gamma의 크기가 작을 수록 퍼짐의 정도가 커진다(보편적인 학습). 반대로 gamma의 크기가 클 수록 퍼짐의 정도가 약하다(디테일한 학습; overfitting).
+    
     - C값과 마찬가지로 적절한 gamma값을 찾는 것이 핵심.
+    
+      ![가우시안 분포](https://t1.daumcdn.net/cfile/tistory/992DEB3359EACB9301)
+    
+      reference: https://t1.daumcdn.net/cfile/tistory/992DEB3359EACB9301
 
 - R 적용
 
