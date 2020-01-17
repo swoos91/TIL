@@ -1,6 +1,6 @@
-### Wed Jan. 16th 2020
+### Week 3
 
-##### Week 2_Octave Tutorial_Basic operations
+##### Wed Jan. 16th 2020
 
 -----
 
@@ -35,11 +35,25 @@ Reference: https://www.coursera.org/learn/machine-learning/lecture/WuL1H/decisio
 
 
 
+----
+
+##### Fri Jan. 17th 2020
+
+---
+
 
 
 ### 2. Cost function
 
 > To fit the optimized θ of logistic regression, we're going to study the cost function.
+
+
+
+- ##### Problem of the Gradient Descent for logistic regression
+
+  - The reason is that logistic regression uses the sigmoid function, so it makes the graph look like **non-convex**. We need to find another way to get the cost function.
+
+- 
 
 
 
