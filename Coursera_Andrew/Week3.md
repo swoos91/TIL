@@ -53,7 +53,14 @@ Reference: https://www.coursera.org/learn/machine-learning/lecture/WuL1H/decisio
 
   - The reason is that logistic regression uses the sigmoid function, so it makes the graph look like **non-convex**. We need to find another way to get the cost function.
 
-- 
+    
+
+- **Cost function of Logistic regression**
+
+  ![Cost function of Logistic regression]()
 
 
+
+- **Simplified cost function and gradient descent**
+  - 
 
