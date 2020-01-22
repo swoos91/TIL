@@ -57,10 +57,22 @@ Reference: https://www.coursera.org/learn/machine-learning/lecture/WuL1H/decisio
 
 - **Cost function of Logistic regression**
 
-  ![Cost function of Logistic regression]()
+  ![Cost function of Logistic regression](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/cost_function_of_Logistic_regression1.png?raw=true)
 
 
 
 - **Simplified cost function and gradient descent**
-  - 
+  
+  - ![](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/cost_function_of_Logistic_regression2.png?raw=true)
+  
+  
+  - ![](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/cost_function_of_Logistic_regression3.png?raw=true)
+  
+    ---
+  
+    Reference: https://www.coursera.org/learn/machine-learning/lecture/WuL1H/decision-boundary
+  
+    ---
+
+
 
