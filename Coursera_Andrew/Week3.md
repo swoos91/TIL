@@ -76,3 +76,56 @@ Reference: https://www.coursera.org/learn/machine-learning/lecture/WuL1H/decisio
 
 
 
+---
+
+##### Wed 22th, Jan 2020
+
+###### Logistic Regression_Multi-class classification
+
+---
+
+
+
+### One vs all
+
+> Label 값의 범위 만큼 클래스를 나눠서 각가 최적의 Theta값을 구한다.
+
+
+
+- ![One vs all](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/One_vs_all.png?raw=true)
+
+
+
+
+
+#### Solving the problem of Overfitting
+
+> Overfitting: 훈련 데이터에 fitted한 모델을 형성하여 High variance를 보이는 문제 //<br>
+>
+> If we have too many features, the learned hypothesis may fit the training set very well, but fail to generalize to new examples // e.g. 보통 학습 데이터보다 feature가 훨씬 많은 경우
+>
+> cf) underfitting: High bias를 가지는 모델 ( 데이터를 모델에 끼워 맞추는 문제 )
+
+
+
+- ##### How to deal with overfitting
+
+  - Reduce number of features
+
+    - Nanually select which features to keep
+    - Model selection algorithm
+
+  - Regularization
+
+    - **keep all the features, but reduce magnitude/values of parameters θ**
+
+    - When?? 
+
+      works well when we have a lot of features, each of which contributes a bit to predicting y.
+
+      ![Regularization](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/Regularization.png?raw=true)
+
+- ##### Formula
+
+  ![Regularization formula](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/Regularization_formula.png?raw=true)
+
