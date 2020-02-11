@@ -38,3 +38,89 @@
 
 - It recommends that the ratio of training / validation / test sets is 6:2:2
 
+
+
+
+
+
+
+
+
+
+
+---
+
+##### Tue, Feb 11, 2020
+
+###### Diagnosing bias vs. variance
+
+---
+
+
+
+
+
+
+
+
+
+#### Diagnosing Bias vs. Variance
+
+
+
+- ![Diagnosing bias vs. Variance](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/diagnosing_bias&Var.png?raw=true)
+- The goal is to find which degree of the polynomial is the best to lower the error.
+
+
+
+#### Regularization and Bias/Variance
+
+
+
+- ![Diagnosing lambda](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/diagnosing_lambda.png?raw=true)
+
+- It tries to find which size of the lambda is the best to lower the J(Θ)
+
+
+
+#### Learning curve
+
+> It shows the relation between the number of training sets and the error. Concretely, it's only helpful to get more training sets when it is under high variance.
+
+
+
+- ![learning curve](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/learning_curve.png?raw=true)
+
+
+
+#### 
+
+
+
+
+
+## Building a Spam Classifier
+
+
+
+
+
+#### Error Metrics for Skewed Classes
+
+> If (y = 1) is in presence of rare class, we call it as skewed classes. It's hard to depend on the accuracy to whether or not it is a good model. In this case, we could use the other metrics.
+
+
+
+- ![precision vs. recall](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/precision_recall.png?raw=true)
+
+
+
+#### Trading off Precision & Recall
+
+> We could control the trading off precision & recall by varying the threshold. If we adjust the threshold highly, then precision is getting higher in contrast that the recall is getting lower. The thing is, it's important to choose the proper threshold. Then, how we could choose the threshold?
+
+
+
+- F-score
+
+  ![F-score](https://github.com/swoos91/TIL/blob/master/Coursera_Andrew/reference/F_score.png?raw=true)
