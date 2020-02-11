@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <!--  // 11:00 - 12:00  -->
+            
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <!-- $ : Javascript 의 객체를 jquery의 object로 변환-->
+
+    <script>
+    // 기본형
+        $('document').ready(function(){
+
+        });
+    // 축약형
+        $(function(){
+            $('#txt_id').datepicker({
+                dateFormat: 'yy-mm-dd',
+                numberOfMonths:[2,3]
+            });
+
+        });
+    </script>
+
+
+
+</head>
+<body>
+    <input type='text' id='txt_id'>
+</body>
+</html>
