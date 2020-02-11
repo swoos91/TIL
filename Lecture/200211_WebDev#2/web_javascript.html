@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+    
+    
+    // 09:00 - 10:00
+
+        //선언적 함수 ( 소속(클래스)없이 전역적 적용 가능; 엄밀히 말하자면, display function의 소속은 window 객체 ( 확인 방법: window.alert(this) ) )
+        //Java와 달리 변수 선언 X ( var name = A ; X)
+        //동일한 이름을 가진 함수라 하더라도 매개변수가 다를 경우, 각각 다른 함수로 봄.
+        function display(name, city) {
+            window.document.write('<h1>이름:'+name+'<h1>');
+            window.document.write('<h1>주소:'+city+'<h1>');
+        }
+        function display() {
+            window.alert('display');
+        }
+        function display() {
+            for(arg in arguments){
+                document.write('<h1>arg:'+arguments[arg]);
+                document.write(point);
+            }// system 내 arguments라는 '무'객체 존재 --> '홍길동'과 '서울시'를 arguments가 받음 --> arg는 index 추출
+        }
+        function myfunc() {
+            function display()
+        }// func 안에 func 선언 가능; inner function
+        
+        //호출부
+        display('홍길동', '서울시');
+   
+   
+   // 10:00 - 11:00
+
+        //literal
+        var j=10; // 10은 literal ; 'Hello' 역시 문자열 literal ; 
+        var i=j; // j는 literal X
+        
+        //익명함수 ( 숫자 혹은 문자열 값 뿐만 아니라 함수, 배열, 객체 역시 리터럴로 볼 수 있음 )
+        var show = function(name){
+            window.alert('show function');
+        };
+       
+        document.write(show); // 문자열 값을 출력
+        show(name='홍길동'); // 값으로 가지고 있다가 호출을 할 경우, func으로 변환
+
+        //선언적 함수
+        function display(args){
+            args(); //함수리터럴() --> 함수
+        };
+
+        window.display(show);                   // 네트워크 통신에서 데이터 뿐만 아니라 '코드'까지 전송이 가능해짐. 단, one step call 만 허용 ( 함수를 여러 개 거쳐서 call하는 경우는 차단 )
+   
+
+
+        //inner function
+
+
+        function dp(function(){
+
+        }){
+
+        }
+
+        function dp2(){
+
+            return( runction(){;} )
+        }
+
+
+        //배열 리터럴  ( 아래도 가능 ) ; 배열은 index값으로 접근
+
+        var arr=[1,2.5,'hello', function(){},[4,5,6]];
+
+        //객체 리터럴 ; 객체는 key값으로 접근
+
+        var obj={
+            name:'홍길동',
+            age:30,
+            display: function(){
+                document.write(this.name) // this. 을 생략하면 instance 내의 name을 찾는 것이 아닌 바깥에서 name을 찾음.
+            },
+            moveUp:function(){}
+        };
+
+
+        </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
