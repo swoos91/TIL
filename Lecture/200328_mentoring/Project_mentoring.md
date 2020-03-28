@@ -60,3 +60,12 @@ GIS --> 시각화 ( 선거운동 )
 
 ```
 
+
+
+
+
+
+
+##### # anaconda orange3 ( data의 formatting이 고정된 경우 활용 ) 
+
+> GUI 지원
