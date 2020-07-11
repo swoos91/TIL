@@ -73,7 +73,7 @@ $$
   P(A_1\cap A_2)=\frac{(n-2)!}{n!}\\
   \begin{aligned}
   \therefore P(A_1\cup A_2\cup ...\cup A_n)&=n\cdot\frac{1}{n}-\frac{n(n-1)}{2!}\cdot\frac{1}{n(n-1)}+...\\
-  &=1-\frac{1}{2!}+...+(-1)^n\cdot \frac{1}{n!}\\
+  &=1-\frac{1}{2!}+...+(-1)^{n+1}\cdot \frac{1}{n!}\\
   &=1-\frac{1}{e}\qquad (a.k.a\quad Tayler\ series)
   \end{aligned}
   $$
